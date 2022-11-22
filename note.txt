@@ -1,0 +1,38 @@
+* how to responsive webpage : add code below to head tag :
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+=========================================================================================================================
+* responsive images and videos :
+img{
+ width:100%;
+ height:auto;
+}
+# or 
+img{
+ max-width:100%;
+}
+=========================================================================================================================
+* responsive tables :
+<div style="overflow-x:auto;">
+ <table>
+   ........
+  </table>
+</div>
+=========================================================================================================================
+* use media command :
+/* برای گوشی های موبایل */
+@media only screen and (max-width: 480px) {...} 
+ 
+/* برای تبلت ها در حالت عمودی و گوشی های موبایل کمی بزرگتر */
+@media only screen and (min-width: 481px) {...} 
+ 
+/* برای لپ تاپ ها و تبلت ها بصورت افقی */
+@media only screen and (min-width: 769px) {...} 
+ 
+/* برای صفحه نمایش های بزرگ مثه کامپیوتر و بالاتر */
+@media only screen and (min-width: 1280px) {...}
+=========================================================================================================================
+* some useful size units in css :
+vh : a unit that evaluates with pure number and it depends on viewport's height size --> 100vh = 100% viewport's height size.
+vw : a unit that evaluates with pure number and it depends on viewport's width size --> // .
+em : it is related to its parent element and --> if <ul> fontsize is 10px, then if we evaluate <li> to 2em the font size of <li> will be 20px.
+rem : its related to its main html document fontsize --> if html font-size is 20px then 2rem in all over document will be 40px.
