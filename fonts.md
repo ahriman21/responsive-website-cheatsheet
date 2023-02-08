@@ -5,9 +5,9 @@
 	font-family: 'PTSans';
 	src: url('fonts/PT-Sans.eot');
     	src: url('fonts/PT-Sans.eot?#iefix') format('embedded-opentype'),
-        url('fonts/PT-Sans.woff') format('woff'),
-        url('fonts/PT-Sans.ttf') format('truetype'),
-        url('fonts/PT-Sans.svg#pt_sansregular') format('svg');
+	    url('fonts/PT-Sans.woff') format('woff'),
+	    url('fonts/PT-Sans.ttf') format('truetype'),
+	    url('fonts/PT-Sans.svg#pt_sansregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
