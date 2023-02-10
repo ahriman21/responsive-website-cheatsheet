@@ -34,3 +34,4 @@ div.parent{
 ## some notes:  
 ##### you can use ` flex-basis : x% ` instead of width.
 ##### you can use ` flex : x ` to resize width of a obj depended on other objects.
+##### you can use ` flex-direction : column; ` you can flex objects in vertical way.
